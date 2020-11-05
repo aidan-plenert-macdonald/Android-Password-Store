@@ -112,6 +112,12 @@
                 android:text="@string/connection_mode_openkeychain" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/git_remote_pull_rebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/git_remote_pull_rebase" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/save_button"
             android:layout_width="wrap_content"

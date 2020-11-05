@@ -29,6 +29,7 @@ object PreferenceKeys {
     const val GIT_EXTERNAL_REPO = "git_external_repo"
     const val GIT_REMOTE_AUTH = "git_remote_auth"
     const val GIT_REMOTE_KEY_TYPE = "git_remote_key_type"
+    const val GIT_REMOTE_PULL_REBASE = "git_remote_pull_rebase"
 
     @Deprecated("Use GIT_REMOTE_URL instead")
     const val GIT_REMOTE_LOCATION = "git_remote_location"

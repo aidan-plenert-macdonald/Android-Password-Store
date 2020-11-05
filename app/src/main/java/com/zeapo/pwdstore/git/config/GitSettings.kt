@@ -102,6 +102,13 @@ object GitSettings {
                 putString(PreferenceKeys.GIT_BRANCH_NAME, value)
             }
         }
+    var rebase
+        get() = settings.getBoolean(PreferenceKeys.GIT_REMOTE_PULL_REBASE, false)
+        private set(value) {
+            settings.edit {
+                putBoolean(PreferenceKeys.GIT_REMOTE_PULL_REBASE, value)
+            }
+        }
     var useMultiplexing
         get() = settings.getBoolean(PreferenceKeys.GIT_REMOTE_USE_MULTIPLEXING, true)
         set(value) {

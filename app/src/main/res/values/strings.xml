@@ -327,6 +327,7 @@
     <string name="connection_mode_ssh_key">SSH key</string>
     <string name="connection_mode_basic_authentication">Password</string>
     <string name="connection_mode_openkeychain" translatable="false">OpenKeychain</string>
+    <string name="git_remote_pull_rebase">Rebase on pull</string>
     <string name="git_server_config_save_success">Successfully saved configuration</string>
     <string name="git_server_config_save_error">The provided repository URL is not valid</string>
     <string name="git_server_config_save_missing_username_https">Please specify the HTTPS username in the form https://username@example.com/…</string>

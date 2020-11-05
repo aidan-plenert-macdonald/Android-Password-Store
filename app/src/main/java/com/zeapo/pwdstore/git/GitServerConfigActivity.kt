@@ -76,6 +76,7 @@ class GitServerConfigActivity : BaseGitActivity() {
             setAuthModes(it.startsWith("http://") || it.startsWith("https://"))
         })
         binding.serverBranch.setText(GitSettings.branch)
+        binding.gitRemotePullRebase.setChecked(GitSettings.rebase)
 
         binding.serverUrl.doOnTextChanged { text, _, _, _ ->
             if (text.isNullOrEmpty()) return@doOnTextChanged
